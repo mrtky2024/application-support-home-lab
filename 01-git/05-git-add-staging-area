@@ -1,0 +1,6 @@
+# Git Add (Add files to the staging area)
+
+## 1. Add File to Staging Area (Prepare a file for the next commit)
+git add filename
+---
+

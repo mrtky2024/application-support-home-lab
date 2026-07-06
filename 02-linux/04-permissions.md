@@ -10,22 +10,22 @@ developers      → Group
 Jul 6 17:23     → Last Modified Date
 test.txt        → File Name
 
-change owner -> chown username:groupname filename
-change mod -> chmod 755 filename(read:4, write:2, execute:1)
+change owner -> chown username:groupname filename  
+change mod -> chmod 755 filename(read:4, write:2, execute:1)  
 add/remove permission -> chmod u+x filename(user:u, group:g, others:o, all:a)
 
 ************************************
 
-display all users -> cat /etc/passwd
-display all groups -> cat /etc/group
+display all users -> cat /etc/passwd  
+display all groups -> cat /etc/group  
 
-display a user -> id username
-display a user's groups -> groups username
+display a user -> id username  
+display a user's groups -> groups username  
 
-create user -> useradd
-delete user -> userdel
+create user -> useradd  
+delete user -> userdel  
 
-create group -> groupadd
-delete group -> groupdel
+create group -> groupadd  
+delete group -> groupdel  
 
 add user to group ->usermod -aG
